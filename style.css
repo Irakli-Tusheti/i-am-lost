@@ -25,7 +25,21 @@ ul { list-style-position: inside; margin-bottom: 10px; }
 li { margin-bottom: 5px; }
 .columns { display: flex; gap: 15px; justify-content: center; }
 .columns > div { flex: 1; }
-
+.column-search {
+    width: 100%;
+    padding: 6px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    border: 1px solid #000;
+    margin-bottom: 8px;
+}
+.columns ul {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
 /* Contact form */
 form {
     display: inline-block;
